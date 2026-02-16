@@ -1,0 +1,35 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="card" x1="24" y1="16" x2="232" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <linearGradient id="tick" x1="74" y1="145" x2="182" y2="145" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10B981"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="16" y="16" width="224" height="224" rx="52" fill="url(#card)"/>
+
+  <!-- Calendar body -->
+  <rect x="52" y="54" width="152" height="148" rx="22" fill="white"/>
+  <rect x="52" y="54" width="152" height="38" rx="22" fill="#E2E8F0"/>
+  <circle cx="92" cy="54" r="9" fill="#0F766E"/>
+  <circle cx="164" cy="54" r="9" fill="#0F766E"/>
+
+  <!-- Date dots -->
+  <circle cx="86" cy="118" r="7" fill="#CBD5E1"/>
+  <circle cx="116" cy="118" r="7" fill="#CBD5E1"/>
+  <circle cx="146" cy="118" r="7" fill="#CBD5E1"/>
+  <circle cx="176" cy="118" r="7" fill="#CBD5E1"/>
+  <circle cx="86" cy="148" r="7" fill="#CBD5E1"/>
+  <circle cx="116" cy="148" r="7" fill="#CBD5E1"/>
+
+  <!-- Check mark for attendance done -->
+  <path d="M114 172L95 153C92 150 87 150 84 153C81 156 81 161 84 164L108 188C111 191 116 191 119 188L174 133C177 130 177 125 174 122C171 119 166 119 163 122L114 172Z" fill="url(#tick)"/>
+
+  <!-- Small clock accent -->
+  <circle cx="176" cy="168" r="20" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="3"/>
+  <path d="M176 157V168L184 173" stroke="#1D4ED8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
